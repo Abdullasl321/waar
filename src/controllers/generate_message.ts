@@ -8,11 +8,11 @@ const waarConfigPath = resolve(__dirname, '..', '..', 'config', 'waar_globals.js
 const generateMessage = (): string => {
     const { WAAR_DEFAULT_MESSAGE } = loadJSONObj(waarConfigPath)
 
-    return `🤖💬 *Whatsapp AUTO-REPLY* v${version}
+    return `*Whatsapp AUTO-REPLY* v${version}
                     
   ${WAAR_DEFAULT_MESSAGE}
   
-  >> https://github.com/yeikiu/waar <<`
+  >> A R Abdullah <<`
 }
 
 export default generateMessage
